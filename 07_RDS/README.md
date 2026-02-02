@@ -154,3 +154,6 @@ Step 3: Click "Create Database"
 Step 4: Choose "Free tier"
 Step 5: Wait 10 minutes
 Step 6: Start using!
+
+# How to connect my postgresql with ec2 
+sudo psql -U postgres -h student-db.c8vgse8o8rmt.us-east-1.rds.amazonaws.com --password
