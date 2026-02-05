@@ -103,32 +103,6 @@ Cron jobs
 Disk, CPU, memory monitoring
 
 Process and system health checks
-
-📁 Project Structure
-aws-cost-tracking-alert-system/
-│
-├── architecture/
-│   └── diagrams/
-│
-├── aws_setup/
-│   ├── billing_alerts.md
-│   ├── cloudwatch_alarms.md
-│   └── sns_setup.md
-│
-├── linux_automation/
-│   ├── cost_alert_check.sh
-│   ├── disk_usage_check.sh
-│   ├── system_health.sh
-│   └── README.md
-│
-├── testing_and_alerts/
-│   └── alert_testing.md
-│
-├── learning_and_failures/
-│   └── lessons_learned.md
-│
-└── README.md
-
  Linux Automation Layer
 
 Linux is used as the first line of detection.
