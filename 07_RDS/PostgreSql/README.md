@@ -1,22 +1,6 @@
 ----------------------------------------------------
 <!-- what is postgresql  -->
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <!-- Some basics command of this relational database -->
 
 ------->  PostgreSQL Daily Use Commands <---------------------
