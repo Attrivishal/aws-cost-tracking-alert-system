@@ -61,3 +61,9 @@ TRANSACTIONS:
              COMMIT; - Save changes
              ROLLBACK; - Cancel changes
 
+
+
+
+
+# How to connect my postgresql with ec2 
+sudo psql -U postgres -h student-db.c8vgse8o8rmt.us-east-1.rds.amazonaws.com --password
