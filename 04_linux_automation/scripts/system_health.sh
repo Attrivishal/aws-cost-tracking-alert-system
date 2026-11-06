@@ -28,9 +28,9 @@ ps -eo pid,comm,%cpu --sort=-%cpu | head -6
 echo ""
 echo "Network Connectivity Check:"
 if ping -c 2 8.8.8.8 >/dev/null 2>&1; then
-  echo "✅ Network connectivity OK"
+  echo "Network connectivity OK"
 else
-  echo "❌ Network connectivity FAILED"
+  echo "Network connectivity FAILED"
 fi
 
 # 6️  SSH service status
