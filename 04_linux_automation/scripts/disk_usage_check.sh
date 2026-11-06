@@ -19,7 +19,7 @@ echo ""
 if [ "$USAGE" -ge "$THRESHOLD" ]; then
   MESSAGE="ALERT: Disk usage on EC2 exceeded ${THRESHOLD}%. Current u>
 
-  echo "❌ $MESSAGE"
+  echo " $MESSAGE"
   echo "Sending SNS alert..."
 
   aws sns publish \
@@ -29,7 +29,7 @@ if [ "$USAGE" -ge "$THRESHOLD" ]; then
     --subject "EC2 Disk Usage Alert"
 
 else
-  echo "✅ Disk usage is within safe limits"
+  echo "Disk usage is within safe limits"
 fi
 
 
